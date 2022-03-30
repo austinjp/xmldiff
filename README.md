@@ -132,7 +132,6 @@ Note the differences:
 
   - An organisation name has a typo.
   - A property value has changed.
-  - A tag name has changed.
 
 Also, some elements have swapped places:
 
