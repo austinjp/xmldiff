@@ -101,14 +101,6 @@ function test_deps {
     fi
 }
 
-function ordereddict_to_dict {
-    python3 - <<EOF
-import sys
-# o = OrderedDict([('xml', None), ('thing', [ OrderedDict({"x":1}) ])])
-# print(od_to_dict(o))
-EOF
-}
-
 function gronify {
     python3 - <<EOF  | jq --sort-keys . | gron
 import xmltodict, os
